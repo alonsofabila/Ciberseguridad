@@ -34,7 +34,7 @@ else:
     print('LLaves incorrectas')
 
 
-print('\nModular Inverso')
+print('\nModular Inversion')
 s3 = pow(Bob, eve, primeNumber)
 s4 = pow(Eve, bob, primeNumber)
 print(s3)
@@ -53,4 +53,3 @@ if s1 == s3:
     print(f'\nLlave SHA256: {s}')
 else:
     print('LLaves incorrectas')
-
